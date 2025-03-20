@@ -1,0 +1,70 @@
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  user-select: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cell.empty {
+  background-color: #e0e0e0;
+}
+
+.cell.empty:hover {
+  background-color: #d0d0d0;
+}
+
+.cell.ship {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.cell.ship:hover {
+  background-color: #357abd;
+}
+
+.cell.hit {
+  background-color: #e74c3c;
+  color: white;
+  animation: hit-pulse 0.5s ease-out;
+}
+
+.cell.hit:hover {
+  background-color: #c0392b;
+}
+
+.cell.miss {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.cell.miss:hover {
+  background-color: #27ae60;
+}
+
+@keyframes hit-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* 添加响应式设计 */
+@media (max-width: 768px) {
+  .cell {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
