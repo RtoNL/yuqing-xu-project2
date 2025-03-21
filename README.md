@@ -22,7 +22,5 @@ A simple battleship game created for CS5610 Web Development course at Northeaste
 ## Deployment
 This project is deployed on Render. You can play it at https://yuqing-xu-project2.onrender.com/.
 
-## Contact
-Yuqi Xu - Northeastern University
 
 
