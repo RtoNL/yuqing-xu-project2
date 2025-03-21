@@ -4,16 +4,16 @@ import "../styles/HighScores.css";
 const HighScores = () => {
   // Mock high score data
   const highScores = [
-    { name: "Battleship Master", mode: "Normal Mode", time: "01:45", date: "2023-05-15" },
-    { name: "Admiral", mode: "Normal Mode", time: "02:12", date: "2023-05-10" },
-    { name: "Pirate King", mode: "Normal Mode", time: "02:30", date: "2023-05-08" },
-    { name: "Naval Expert", mode: "Normal Mode", time: "02:45", date: "2023-05-05" },
-    { name: "Fleet Commander", mode: "Normal Mode", time: "03:00", date: "2023-05-01" },
-    { name: "Rookie Sailor", mode: "Free Play Mode", time: "04:20", date: "2023-05-14" },
-    { name: "Speedboat Captain", mode: "Free Play Mode", time: "05:30", date: "2023-05-12" },
-    { name: "Explorer", mode: "Free Play Mode", time: "06:15", date: "2023-05-09" },
-    { name: "Novice Helmsman", mode: "Free Play Mode", time: "07:40", date: "2023-05-06" },
-    { name: "Trainee", mode: "Free Play Mode", time: "09:25", date: "2023-05-02" }
+    { name: "Battleship Master", mode: "Normal Mode", time: "01:45", date: "2025-02-15" },
+    { name: "Admiral", mode: "Normal Mode", time: "02:12", date: "2025-03-10" },
+    { name: "Pirate King", mode: "Normal Mode", time: "02:30", date: "2025-04-08" },
+    { name: "Naval Expert", mode: "Normal Mode", time: "02:45", date: "2025-06-05" },
+    { name: "Fleet Commander", mode: "Normal Mode", time: "03:00", date: "2025-08-01" },
+    { name: "Rookie Sailor", mode: "Free Play Mode", time: "04:20", date: "2025-01-14" },
+    { name: "Speedboat Captain", mode: "Free Play Mode", time: "05:30", date: "2025-05-12" },
+    { name: "Explorer", mode: "Free Play Mode", time: "06:15", date: "2025-07-09" },
+    { name: "Novice Helmsman", mode: "Free Play Mode", time: "07:40", date: "2025-09-06" },
+    { name: "Trainee", mode: "Free Play Mode", time: "09:25", date: "2025-11-02" }
   ];
 
   return (
